@@ -1,0 +1,30 @@
+{
+	"name": "dungeoneer-api",
+	"version": "1.0.0",
+	"description": "data serving api for dungeoneer (and hopefully other services)",
+	"type": "module",
+	"homepage": "https://github.com/zdcobb/dungeoneer-api#readme",
+	"bugs": {
+		"url": "https://github.com/zdcobb/dungeoneer-api/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zdcobb/dungeoneer-api.git"
+	},
+	"author": "zdcobb@gmail.com",
+	"main": "src/index.ts",
+	"scripts": {
+		"start": "ts-node src/index.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"express": "^5.1.0"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.3",
+		"@types/node": "^24.5.2",
+		"ts-node": "^10.9.2",
+		"tslib": "^2.8.1",
+		"typescript": "^5.9.2"
+	}
+}
