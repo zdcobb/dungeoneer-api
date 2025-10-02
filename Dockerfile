@@ -10,4 +10,4 @@ COPY src/ .
 
 EXPOSE 8000
 
-CMD ["ts-node", "index.ts"]
+CMD ["tsx", "src/index.ts"]
